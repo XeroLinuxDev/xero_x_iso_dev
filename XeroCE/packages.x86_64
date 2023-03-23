@@ -212,6 +212,7 @@ bash-completion
 #######################################################
 
 cryptsetup
+auto-cpufreq
 brightnessctl
 mkinitcpio-firmware
 power-profiles-daemon
@@ -242,6 +243,7 @@ gtk-update-icon-cache
 ### Applications
 
 jq
+gksu
 gmrun
 figlet
 ostree
@@ -351,6 +353,7 @@ archey3
 fuseiso
 gettext
 gparted
+catfish
 node-gyp
 intltool
 hw-probe
@@ -482,6 +485,7 @@ topgrade
 libpamac
 pamac-gtk
 pamac-cli
+appimagelauncher
 libpamac-flatpak-plugin
 
 #######################################################
