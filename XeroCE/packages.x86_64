@@ -536,7 +536,6 @@ xfce4-clipman-plugin
 xfce4-sensors-plugin
 xfce4-battery-plugin
 xfce4-cpufreq-plugin
-thunar-archive-plugin
 xfce4-cpugraph-plugin
 xfce4-docklike-plugin
 xfce4-diskperf-plugin
@@ -545,8 +544,21 @@ xfce4-mailwatch-plugin
 xfce4-pulseaudio-plugin
 xfce4-systemload-plugin
 xfce4-whiskermenu-plugin
-thunar-media-tags-plugin
 xfce4-smartbookmark-plugin
+
+### Thunar GFile Manager
+
+thunar
+thunar-volman
+thunar-extended
+thunar-vcs-plugin
+thunar-shares-plugin
+thunar-secure-delete
+thunar-archive-plugin
+thunar-custom-actions
+thunar-media-tags-plugin
+thunar-archive-plugin-zstd
+
 
 ### Display Manager
 
