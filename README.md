@@ -15,7 +15,7 @@
 > - Artix (No Systemd)
 
 <p align="center">
-    <img width="300" src="https://i.imgur.com/lshN1wP.jpg" alt="logo">
+    <img width="600" src="https://i.imgur.com/lshN1wP.jpg" alt="logo">
 </p>
 
 ### Step 1 - Get Repo in to build :
