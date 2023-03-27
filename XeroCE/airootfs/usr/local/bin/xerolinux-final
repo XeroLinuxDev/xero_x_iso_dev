@@ -54,13 +54,9 @@ sudo flatpak override --filesystem=$HOME/.themes
 sudo flatpak override --filesystem=xdg-config/gtk-3.0:ro
 sudo flatpak override --filesystem=xdg-config/gtk-4.0:ro
 
-echo "Fixing SDDM.conf User"
+echo "Fixing LightDM.conf User"
 echo "#################################"
 sed -i "s/autologin-user=liveuser/#autologin-user=/g" /etc/lightdm/lightdm.conf
-
-#echo "Clearing pesky XFCE walls"
-#echo "#################################"
-#rm -rf /usr/share/backgrounds/xfce/
 
 echo "#################################"
 echo "End xerolinux-final"

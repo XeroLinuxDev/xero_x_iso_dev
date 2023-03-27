@@ -175,10 +175,6 @@ xf86-input-synaptics
 libinput_gestures_qt
 xf86-input-elographics
 
-## wifi
-rtl88x2bu-dkms-git
-broadcom-wl-dkms
-
 ### Printers & Scanner support
 
 print-manager
@@ -256,19 +252,16 @@ appstream-glib
 
 ### Bat to replace cat
 
-#bat
-#bat-extras
+bat
+bat-extras
 
 ### Fonts
 
-ttf-rubik
 asian-fonts
-ttf-microns
 ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
 ttf-hack-nerd
-montserrat-ttf
 ttf-jetbrains-mono
 ttf-ubuntu-font-family
 awesome-terminal-fonts
@@ -291,7 +284,6 @@ dracula-gtk-theme
 dracula-cursors-git
 tela-purple-icon-theme-git
 ant-dracula-kvantum-theme-git
-dracula-colors-xfce4-terminal
 
 ### System Utilities
 
@@ -537,7 +529,6 @@ xfce4-sensors-plugin
 xfce4-battery-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-xfce4-docklike-plugin
 xfce4-diskperf-plugin
 xfce4-time-out-plugin
 xfce4-mailwatch-plugin
@@ -548,8 +539,8 @@ xfce4-smartbookmark-plugin
 
 ### Thunar GFile Manager
 
-thunar
 thunar-volman
+thunar-extended
 thunar-vcs-plugin
 thunar-shares-plugin
 thunar-secure-delete
