@@ -191,7 +191,7 @@ abs
 xerowelcome
 calamares-app
 calamares-x-cfg
-xero-xfce-config
+#xero-xfce-config
 xero-fix-scripts
 xerolinux-mirrorlist
 
@@ -256,8 +256,8 @@ appstream-glib
 
 ### Bat to replace cat
 
-bat
-bat-extras
+#bat
+#bat-extras
 
 ### Fonts
 
@@ -553,7 +553,6 @@ thunar-volman
 thunar-vcs-plugin
 thunar-shares-plugin
 thunar-secure-delete
-thunar-archive-plugin
 thunar-custom-actions
 thunar-media-tags-plugin
 thunar-archive-plugin-zstd
