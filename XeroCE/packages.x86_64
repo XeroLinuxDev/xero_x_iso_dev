@@ -177,6 +177,7 @@ xf86-input-elographics
 
 ### Printers & Scanner support
 
+hplip-plugin
 print-manager
 printer-support
 scanner-support
@@ -270,19 +271,23 @@ adobe-source-sans-pro-fonts
 
 ### Theme Tools
 
+rofi
 qt5ct
 plank
+polybar
 kvantum
 neofetch
+picom-ibhagwan-git
 
 ### Rice/Config Related
 
 plank-themes
 xfce-backgrounds
 dracula-icons-git
-dracula-gtk-theme
 dracula-cursors-git
-tela-purple-icon-theme-git
+catppuccin-cursors-mocha
+catppuccin-gtk-theme-mocha
+kvantum-theme-catppuccin-git
 ant-dracula-kvantum-theme-git
 
 ### System Utilities
@@ -562,15 +567,15 @@ vlc
 zip
 htop
 p7zip
-discord
 gparted
 viewnior
 engrampa
 audacious
 flameshot
 kirigami2
+superpaper
 thunderbird
-libreoffice-fresh
+lxappearance
 gnome-disk-utility
 
 ### Others
