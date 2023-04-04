@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="xero_xfce"
-iso_label="XERO_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_name="xero_xfce_dev"
+iso_label="XERO_XFCE_dev$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="DarkXero"
-iso_application="xero_xfce"
+iso_application="xero_xfce_dev"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m)"
 install_dir="arch"
 buildmodes=('iso')
