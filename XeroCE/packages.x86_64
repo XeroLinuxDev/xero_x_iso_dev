@@ -187,10 +187,10 @@ scanner-support
 abs
 xerowelcome
 calamares-app
-calamares-x-cfg-dev
-xero-x-config-dev
 xero-fix-scripts
+xero-x-config-dev
 xerolinux-mirrorlist
+calamares-xfce-cfg-dev
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -271,23 +271,16 @@ adobe-source-sans-pro-fonts
 
 ### Theme Tools
 
-rofi
 qt5ct
 plank
-polybar
 kvantum
 neofetch
-picom-ibhagwan-git
 
 ### Rice/Config Related
 
 plank-themes
 xfce-backgrounds
-dracula-icons-git
-dracula-cursors-git
-catppuccin-cursors-mocha
-catppuccin-gtk-theme-mocha
-kvantum-theme-catppuccin-git
+tela-circle-icon-theme-brown-git
 
 ### System Utilities
 
@@ -375,6 +368,7 @@ gnome-disk-utility
 appmenu-gtk-module
 hardcode-fixer-git
 extra-cmake-modules
+power-profiles-daemon
 
 ### G-Streamer
 
@@ -387,7 +381,6 @@ gst-plugins-ugly
 ## Pipewire Audio
 
 pavucontrol
-wireplumber
 pipewire-jack
 pipewire-support
 lib32-pipewire-jack
@@ -552,6 +545,12 @@ thunar-custom-actions
 thunar-media-tags-plugin
 thunar-archive-plugin-zstd
 
+### GlobalMenu Shit
+
+appmenu-gtk-module
+vala-panel-appmenu-xfce-git
+vala-panel-appmenu-common-git
+vala-panel-appmenu-registrar-git
 
 ### Display Manager
 
@@ -572,9 +571,6 @@ engrampa
 audacious
 flameshot
 kirigami2
-superpaper
-thunderbird
-lxappearance
 gnome-disk-utility
 
 ### Others

@@ -1,6 +1,6 @@
 # Main options
 title-text: ""
-desktop-image: "background.png"
+desktop-image: "XeroXFCEGrub1440.png"
 desktop-color: "#000000"
 terminal-font: "Terminus Regular 14"
 terminal-box: "terminal_box_*.png"
@@ -12,15 +12,15 @@ terminal-border: "0"
 
 # Boot menu
 + boot_menu {
-  left = 15%
-  top = 40%
-  width = 55%
+  left = 20%
+  top = 39%
+  width = 60%
   height = 65%
   item_font = "Ubuntu Regular 20"
-  item_color = "#cccccc"
-  selected_item_color = "#ffffff"
-  icon_width = 36
-  icon_height = 36
+  item_color = "#ffffff"
+  selected_item_color = "#f3ebae"
+  icon_width = 45
+  icon_height = 45
   item_icon_space = 20
   item_height = 40
   item_padding = 2
@@ -32,11 +32,11 @@ terminal-border: "0"
 # Countdown label
 # You can change the name of default starting OS here
 + label {
-  left = 15%
-  top = 31%
+  left = 35%
+  top = 87%
   align = "center"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
-  color = "#cccccc"
-  font = "Ubuntu Regular 17"
+  color = "#f3ebae"
+  font = "Ubuntu Regular 20"
 }
