@@ -5,6 +5,6 @@ Type = Package
 Target = lsb-release
 
 [Action]
-Description = Add XeroLinux specifc config.
+Description = Add XeroXFCE specifc config.
 When = PostTransaction
 Exec = /bin/sh -c "sed -i -e s'?^DISTRIB_ID=.*$?DISTRIB_ID=XeroXFCE-dev?' -e s'?^DISTRIB_DESCRIPTION=.*$?DISTRIB_DESCRIPTION=\"XeroXFCE-dev\"?' /etc/lsb-release"

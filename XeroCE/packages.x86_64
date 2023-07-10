@@ -34,10 +34,12 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+foot-terminfo
 fd
 fsarchiver
 gnu-netcat
 gpart
+gparted
 gpm
 gptfdisk
 hdparm
@@ -114,6 +116,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vpnc
+wezterm-terminfo
 wireguard-tools
 wireless-regdb
 wireless_tools
@@ -136,9 +139,9 @@ exa
 ntp
 most
 wget
+albert
 dialog
 repoctl
-haveged
 dnsutils
 logrotate
 
@@ -150,9 +153,12 @@ logrotate
 
 mesa
 autorandr
+mesa-utils
 xf86-video-qxl
+xf86-video-vesa
 xf86-video-fbdev
 xf86-video-vmware
+qemu-hw-display-qxl
 xf86-video-openchrome
 
 ### Input
@@ -208,8 +214,8 @@ bash-completion
 ###    PACKAGES THAT ARE BY TECHXERO ~ DARKXERO     ###
 #######################################################
 
+vnanorc
 cryptsetup
-auto-cpufreq
 brightnessctl
 mkinitcpio-firmware
 power-profiles-daemon
@@ -248,6 +254,8 @@ okular
 flatseal
 numlockx
 lm_sensors
+qalculate-gtk
+samba-support
 appstream-glib
 #systemd-manager-git
 
@@ -263,7 +271,7 @@ ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
 ttf-hack-nerd
-ttf-jetbrains-mono
+xero-fonts-git
 ttf-ubuntu-font-family
 awesome-terminal-fonts
 ttf-jetbrains-mono-nerd
@@ -278,6 +286,7 @@ neofetch
 
 ### Rice/Config Related
 
+adw-gtk3
 plank-themes
 xfce-backgrounds
 tela-circle-icon-theme-brown-git
@@ -294,6 +303,7 @@ w3m
 yad
 zip
 xdo
+alsi
 inxi
 meld
 wget
@@ -380,6 +390,7 @@ gst-plugins-ugly
 
 ## Pipewire Audio
 
+wireplumber
 pavucontrol
 pipewire-jack
 pipewire-support
@@ -443,6 +454,7 @@ ffmpegthumbnailer
 
 ### Python & Libs
 
+python-pip
 python-cffi
 python-numpy
 python-docopt
@@ -518,6 +530,7 @@ xfce4-mount-plugin
 xfce4-screenshooter
 xfce4-genmon-plugin
 xfce4-wavelan-plugin
+xfce4-panel-profiles
 xfce4-weather-plugin
 xfce4-netload-plugin
 xfce4-fsguard-plugin
